@@ -6,6 +6,8 @@ from telegram import Bot, Update
 from telegram.ext import Dispatcher, CommandHandler
 
 TOKEN = os.environ.get("TELEGRAM_TOKEN")
+if not TOKEN:
+    raise ValueError("❌ Переменная окружения TELEGRAM_TOKEN не найдена. Убедись, что она задана!")
 bot = Bot(token=TOKEN)
 
 app = Flask(__name__)
