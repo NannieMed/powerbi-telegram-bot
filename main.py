@@ -27,10 +27,10 @@ def day(update, context):
     update.message.reply_markdown(get_today_task())
 
 def help_command(update, context):
-    update.message.reply_text("Команды:
+    update.message.reply_text("""Команды:
 /день — задание на сегодня
 /помощь — помощь
-/совет — случайный совет")
+/совет — случайный совет""")
 
 def tip(update, context):
     update.message.reply_text("💡 Совет: Не забывай сохранять отчет перед публикацией в Power BI Service!")
