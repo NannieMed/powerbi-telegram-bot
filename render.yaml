@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: powerbi-telegram-bot
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn main:app
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: YOUR_TELEGRAM_BOT_TOKEN_HERE

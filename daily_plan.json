@@ -1,0 +1,19 @@
+{
+  "start_date": "2025-04-22",
+  "days": {
+    "1": "Введение в Power BI: установка, интерфейс. Видео: https://learn.microsoft.com/ru-ru/training/modules/introduction-power-bi/",
+    "2": "Загрузка и очистка данных через Power Query. Видео: https://www.youtube.com/watch?v=-6EIF9W0m9w",
+    "3": "Модель данных и связи. Видео: https://www.youtube.com/watch?v=Z3XwJzZ4YFg",
+    "4": "Визуализации: таблицы, диаграммы, карты. Видео: https://www.youtube.com/watch?v=OYO_g92jCtY",
+    "5": "Фильтры и срезы. Видео: https://www.youtube.com/watch?v=w6USePueoWI",
+    "6": "Мини-проект: дашборд по продажам. Данные: https://www.kaggle.com/datasets/kyanyoga/sample-sales-data",
+    "7": "Выходной / Повторение материалов.",
+    "8": "Введение в DAX. Видео: https://www.youtube.com/watch?v=cXnQFbM6Z5s",
+    "9": "DAX: логика и временные функции. Видео: https://www.youtube.com/watch?v=uxJwUJq7fWo",
+    "10": "Взаимодействие визуалов. Видео: https://www.youtube.com/watch?v=0Rs_Mc0mUNc",
+    "11": "Публикация отчета. Видео: https://www.youtube.com/watch?v=llBd04xmn0M",
+    "12": "Безопасность: RLS. Видео: https://www.youtube.com/watch?v=W5YjeNDR9lg",
+    "13": "Финальный мини-проект: дашборд из открытых данных.",
+    "14": "Подведение итогов, повторение, план на будущее."
+  }
+}
